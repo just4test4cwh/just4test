@@ -1,0 +1,3 @@
+cwh@ubuntu:~/unp/3$ gcc -I /unpv13e/lib -g -O2 -D_REENTRANT -Wall -c -o client.o client.c
+cwh@ubuntu:~/unp/3$ gcc -I /unpv13e/lib -g -O2 -D_REENTRANT -Wall -o client client.o ~/unpv13e/libunp.a -lpthread
+
